@@ -1,0 +1,76 @@
+<!--index.wxml-->
+<view class="mark" wx:if="{{isSuccess}}" catchtouchmove="true">
+</view>
+<view class="success" wx:if="{{isSuccess}}" catchtouchmove="true">
+  <image class="headIme"></image>
+  <image class="text1" src='../../image/4_03.png'></image>
+  <view class="text2">更过白拿好商品</view>
+  <view class="tuijian">
+    <view class="titem">
+      <image></image>
+      <text class="text3">0</text>
+      <text>元</text>
+    </view>
+    <view class="titem">
+      <image></image>
+      <text class="text3">0</text>
+      <text>元</text>
+    </view>
+    <view class="titem">
+      <image></image>
+      <text class="text3">0</text>
+      <text>元</text>
+    </view>
+    <view class="titem">
+      <image></image>
+      <text class="text3">0</text>
+      <text>元</text>
+    </view>
+  </view>
+  <view class="helpPay">发起帮帮付</view>
+  <view class="close" bindtap='close'>关闭弹窗</view>
+</view>
+
+<view class="index">
+  <view class="app" bindtap='open'>打开APP</view>
+  <view class="details">
+    <view class="title">
+      <view class="img">
+        <image></image>
+      </view>
+      <view class="name">王哥</view>
+      <view class="text">
+        <image src='../../image/1_03.png'></image>
+      </view>
+    </view>
+    <view class="commodity">
+      <image src='../../image/2_03.png'></image>
+      <text class="commodityName">
+        防静电户干部粉红色的变故的恢复都不让付电费本办法asdafsf
+      </text>
+    </view>
+    <view class="jindu">
+      <view class="dajindu"></view>
+      <view class="xiaojindu"></view>
+      <view class="price">
+        <view>0元</view>  
+        <view>230元</view> 
+      </view>
+      <view class="payed">57</view>
+    </view>
+    <view class="btn">确定帮他</view>  
+  </view>
+  <view class="people">
+    <view class="num">已有20人帮他付款</view>
+    <view class="peopleDetail" wx:for="{{arr}}" wx:key="index">
+      <view class="msg left">
+        <image class="headIma"></image>
+        <view class="pepoleName">好友{{item}}</view>
+      </view>
+      <view class="msg right">
+        <view class="payNum">+{{item}}</view>
+        <image src='../../image/3_03.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

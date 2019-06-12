@@ -1,0 +1,37 @@
+<!--pages/login/login.wxml-->
+<view class="mark" wx:if="{{isSuccess}}" catchtouchmove="true">
+</view>
+<view class="success" 
+      wx:if="{{isSuccess}}"
+      style="background-image:url('../../image/b1_03.png')" 
+      catchtouchmove="true">
+  <view class="text1">恭喜你</view>
+  <view class="text2">获得一份由够惠生活提供的新人注册红包</view>
+  <view class="money" 
+    style="background-image:url('../../image/background_03.png')" >
+    <view class="text4">新人专享·注册</view>
+    <view class="text5">红包金额在惠红包里查看</view>
+    <view class="mon">
+      <view class="num">300</view>
+      <view>元</view>
+    </view>
+  </view> 
+  <view class="btn" bindtap='close'>收下了</view>
+  <view class="text6">签到、邀请好友还能获得更多红包</view>
+</view>
+<view class="register">
+  <view class="msg">
+    <view class="item">
+      <input type='text' placeholder='请输入手机号或者用户名'></input>
+    </view>
+    <view class="item">
+      <input type='text' placeholder='请输入密码'></input>
+      <view class="code">获取验证码</view>
+    </view>
+    <view class="confirm" bindtap='open'>同意协议并注册</view>
+    <view class="agreement">
+      已同意阅读以下协议
+      <text>够惠生活使用条款和隐私政策</text>
+    </view>
+  </view>
+</view>

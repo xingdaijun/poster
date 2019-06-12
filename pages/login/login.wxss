@@ -1,0 +1,136 @@
+/* pages/login/login.wxss */
+.mark{
+  position: fixed;
+  top:0px;
+  width: 100%;
+  height: 100%;
+  background:#000;
+  z-index: 15;
+  opacity: 0.5;
+  display: flex;
+  justify-content:center;
+  align-items:Center;
+}
+.success{
+  width: 611rpx;
+  height: 785rpx;
+  background:#fff;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-305.5rpx;
+  margin-top:-392.5rpx;
+  text-align: center;
+  z-index: 100;
+  background-size:611rpx 785rpx; 
+  border-radius: 15rpx
+}
+.text1{
+  font-size: 59rpx;
+  color:#ffe8c1;
+  text-align: center;
+  margin-top:212rpx;
+}
+.text2{
+  font-size: 24rpx;
+  color:#ffe8c1;
+  text-align: cener;
+  margin-top:20rpx;
+}
+.money{
+  width: 442rpx;
+  height: 111rpx;
+  background-size: 480rpx 136rpx;
+  margin:0 auto;
+  margin-top:40rpx;
+  text-align: left;
+  padding-left:38rpx;
+  padding-top:25rpx;
+  position: relative;
+}
+.text4{
+  font-size: 36rpx;
+  color:#892109;
+}
+.text5{
+  font-size: 22rpx;
+  color:#892109;
+  margin-top:8rpx; 
+}
+.mon{
+  font-size: 22rpx;
+  color:#892109;
+  text-align: center;
+  position: absolute;
+  top:35rpx;
+  right:25rpx;
+}
+.num{
+  font-size: 48rpx;
+  color:#892109;
+  margin-bottom:-10rpx; 
+}
+.btn{
+  width: 480rpx;
+  height: 72rpx;
+  text-align: center;
+  color:#f42b16;
+  font-size: 30rpx;
+  line-height: 72rpx;
+  margin:0 auto;
+  margin-top:62rpx;
+  background: #F5CB83;
+  border-radius: 10rpx;
+}
+.text6{
+  font-size: 24rpx;
+  margin-top:40rpx;
+  color:#ffe8c1
+}
+.register{
+  margin-top:116rpx;
+  padding:0rpx 36rpx;
+}
+.register .item{
+  border-bottom: 1px solid #00B248;
+  margin-bottom: 63rpx;
+  padding-left:23rpx;
+  position: relative;
+}
+.register input{
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+.code{
+  width:138rpx;
+  height: 51rpx;
+  background: #F3F3F3;
+  border-radius: 25rpx;
+  color:#00b248;
+  font-size: 23rpx;
+  text-align: center;
+  line-height: 51rpx;
+  position: absolute;
+  right:0rpx;
+  top:0rpx;
+}
+.confirm{
+  width:100%;
+  height: 75rpx;
+  background:#00b248;
+  text-align: center;
+  line-height: 75rpx;
+  font-size: 28rpx;
+  border-radius: 50rpx;
+  color:#fff;
+}
+.agreement{
+  color:#D4D4D4;
+  font-size: 23rpx;
+  margin-top:60rpx;
+  text-align: center;
+}
+.agreement text{
+  color:#000;
+  border-bottom: 1px solid #000;
+}
